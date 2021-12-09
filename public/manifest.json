@@ -1,0 +1,15 @@
+{
+  "name": "Cameron's Language Arts Anthology",
+  "short_name": "Cameron's Language Arts Anthology",
+  "start_url": "/la-anthology/",
+  "scope": "/la-anthology/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/la-anthology/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
