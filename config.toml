@@ -1,5 +1,0 @@
-baseURL = "http://1cpkazimour.github.io/la-anthology/"
-languageCode = "en-us"
-title = "Cameron's Language Arts Anthology"
-theme = "hugo-book"
-publishDir = "docs"
