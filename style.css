@@ -1,0 +1,62 @@
+:root {
+    --margin-size: 20px;
+    --content-size: min(500px, 80vw);
+}
+
+body {
+    background-color: #ddd;
+    color: #222;
+    font-size: 14pt;
+    margin: var(--margin-size) 10%;
+}
+
+h1 {
+    /*margin: 0;*/
+    font-size: 1.4em;
+}
+
+h2 {
+    /*margin: 0;*/
+    font-size: 1.2em;
+}
+
+a {
+    color: #35e;
+    text-decoration: none;
+}
+
+h1.title {
+    font-size: 1.5em;
+}
+
+p.author {
+    font-style: italic;
+}
+
+p.date {
+    font-style: italic;
+}
+
+nav#TOC::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #222;
+}
+
+img {
+    border: 2px solid #000;
+    width: max(60%, var(--content-size));
+    display: block;
+    margin: var(--margin-size) auto calc(var(--margin-size) / 2);
+}
+
+/*img.border-off {
+    border: none;
+}
+
+.caption {
+    font-style: italic;
+    text-align: center;
+}*/
